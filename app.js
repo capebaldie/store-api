@@ -7,7 +7,7 @@ const notFoundMiddleWare = require("./middleware/not-found");
 const connectDB = require("./db/connect");
 const products = require("./routes/products");
 
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 3000;
 
 //middleware
 // extended: true option allows for parsing complex objects and arrays.
